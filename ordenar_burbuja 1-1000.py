@@ -40,7 +40,7 @@ def merge(sublists):
 
 # Función para probar los algoritmos de ordenación
 def test_sorting():
-    sizes = [10, 100, 1000, 10000, 100000, 500000, 700000, 1000000]  # Lista de tamaños a probar (usamos tamaños pequeños para mostrar los datos)
+    sizes = [10, 100, 1000]  # Lista de tamaños a probar (usamos tamaños pequeños para mostrar los datos)
     for size in sizes:
         arr = [random.randint(0, 1000000) for _ in range(size)]  # Genera una lista de números aleatorios
         arr_copy = arr[:]  # Crea una copia de la lista para la versión paralela
